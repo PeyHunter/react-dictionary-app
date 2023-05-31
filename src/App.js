@@ -1,13 +1,21 @@
 import './App.css';
+import Dictionary from './Dictionary';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App container">
+    <div className="App">
+<div className='container'>
+      <h1 className='text-center'>Dictionary</h1>
+     <main>
+      < Dictionary />
+     </main>
 
-      <h1>Dictionary</h1>
-     <p>Hello</p>
+
+     <footer className="footer text-center"> open source by Peyton Hunter </footer>
+    </div>
     </div>
   );
 }
 
-export default App;
+
