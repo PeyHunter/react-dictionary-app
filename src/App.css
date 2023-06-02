@@ -3,5 +3,6 @@
   font-size: 15px;
   margin: 20px;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
 }
+
+a {color: blue;}

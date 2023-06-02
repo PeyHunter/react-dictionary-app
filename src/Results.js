@@ -1,13 +1,17 @@
 import React from "react";
 import Meaning from "./Meaning.js";
 import Phonetics from "./Phonetics";
+import "./Dictionary.css";
 
 export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2 className="Keyword">{props.results.word}</h2>
-        <Phonetics phonetics={props.results.phonetic} /> <br />
+        <section>
+          <h2 className="Keyword">{props.results.word}</h2>
+          <Phonetics phonetics={props.results.phonetic} /> <br />
+        </section>
+
         {props.results.meanings.map((meaning, index) => {
           return (
             <div key={index}>
@@ -15,6 +19,7 @@ export default function Results(props) {
             </div>
           );
         })}
+
         <br />
       </div>
     );

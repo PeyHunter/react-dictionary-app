@@ -7,12 +7,18 @@ export default function App() {
       <div className="container">
         <h1 className="text-center">Dictionary</h1>
         <main>
-          <Dictionary defaultKeyword={"help"} />
+          <Dictionary defaultKeyword="What" />
         </main>
 
         <footer className="footer text-center">
           {" "}
-          open source by Peyton Hunter{" "}
+          <a
+            href="https://github.com/PeyHunter/react-dictionary-app"
+            target_blank
+          >
+            open source
+          </a>{" "}
+          by Peyton Hunter{" "}
         </footer>
       </div>
     </div>

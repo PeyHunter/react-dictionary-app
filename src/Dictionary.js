@@ -24,15 +24,18 @@ export default function Dictionary(props) {
   }
 
   return (
-    <div className="Dictionary">
-      <div className="container border-1 border border-secondary rounded ">
-        <form onSubmit={search}>
-          <input
-            className="mt-5 mb-3"
-            type="search"
-            onChange={handleKeywordChange}
-          ></input>
-        </form>
+    <div className="dictionary">
+      <div className="container">
+        <section>
+          <form onSubmit={search}>
+            <input
+              className="  searchEngine"
+              type="search"
+              onChange={handleKeywordChange}
+            ></input>
+          </form>
+        </section>
+
         <Results results={results} />
       </div>
     </div>
