@@ -4,20 +4,11 @@ import Synonyms from "./Synonyms.js";
 export default function Meaning(props) {
   return (
     <section>
-      <h3 className="partOfSpeech">{props.meaning.partOfSpeech}</h3>
-      <p> Definition: {props.meaning.definition} </p>
-
-      <em>
-        {" "}
-        <p> Example: {props.meaning.example} </p>
-      </em>
-
+      <h3>{props.meaning.partOfSpeech}</h3>
+      <p>Definition: {props.meaning.definition}</p>
+      <em>Example: {props.meaning.example}</em>
       <strong>
-        {" "}
-        <p>
-          {" "}
-          <Synonyms synonyms={props.meaning.synonyms} />
-        </p>
+        <Synonyms synonyms={props.meaning.synonyms} />
       </strong>
     </section>
   );
