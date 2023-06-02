@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { propTypes } from "react-bootstrap/esm/Image";
 import "./Dictionary.css";
 import Results from "./Results.js";
 
