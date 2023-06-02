@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <h1 className="text-center">Dictionary</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword={"help"} />
         </main>
 
         <footer className="footer text-center">
