@@ -10,6 +10,20 @@ p {
     margin-bottom: 3px;
 }
 
+a {
+    color: rgb(9, 18, 192);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+}
 
 .Keyword {
     font-size: 140px;
@@ -63,6 +77,17 @@ p {
 .example {
     font-weight: 300;
     font-size: 14px;
+}
+
+.images img {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.image-note {
+
+    color: rgb(92, 92, 92); 
+    font-size: 12px;
+    font-style: italic;
 }
 
 

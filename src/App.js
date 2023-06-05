@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Dictionary";
 import Dictionary from "./Dictionary";
 
 export default function App() {
@@ -14,13 +14,22 @@ export default function App() {
           {" "}
           <a
             href="https://github.com/PeyHunter/react-dictionary-app"
-            target_blank
+            target="blank"
           >
             open source
           </a>{" "}
-          by Peyton Hunter{" "}
+          by{" "}
+          <a
+            href="https://peyton-hunter-full-stack-portfolio.netlify.app/"
+            target="blank"
+          >
+            {" "}
+            Peyton Hunter{" "}
+          </a>{" "}
         </footer>
+        <br />
       </div>
+      <br />
     </div>
   );
 }
