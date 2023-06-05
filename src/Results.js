@@ -8,7 +8,7 @@ export default function Results(props) {
     return (
       <div className="Results">
         <section>
-          <h2 className="Keyword">{props.results.word}</h2>
+          <h3 className="Keyword">{props.results.word}</h3>
           <Phonetics phonetics={props.results.phonetic} /> <br />
         </section>
 

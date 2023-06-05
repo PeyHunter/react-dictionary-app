@@ -2,7 +2,9 @@
   text-align: center;
   font-size: 15px;
   margin: 20px;
-  font-family: 'Courier New', Courier, monospace;
 }
 
-a {color: blue;}
+
+a {color: rgb(17, 36, 163);
+  text-decoration: none;
+}
