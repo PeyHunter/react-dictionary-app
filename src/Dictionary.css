@@ -101,4 +101,16 @@ a:hover {
     .Phoenetics {
         font-size: 30px;
     }
+  
+}
+@media (max-width: 375px) {
+    h1 {
+        font-size: 40px;
+    }
+    .Keyword {
+        font-size: 45px;
+    }
+    .Phoenetics {
+        font-size: 30px;
+    }
 }
