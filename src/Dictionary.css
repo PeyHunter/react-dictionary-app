@@ -40,8 +40,16 @@ a:hover {
    font-size: 45px;
 }
 
+.reload {
+    border:none;
+background-color: white;
+}
 
-.dictionary section {
+.reload:hover{
+    text-decoration: underline;
+}
+
+ section {
     background-color: white;
     padding: 30px 40px 30px 40px;  
     margin: 30px 0px;
