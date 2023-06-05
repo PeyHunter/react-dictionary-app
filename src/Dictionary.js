@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useState } from "react";
 import "./Dictionary.css";
 import Results from "./Results.js";
-import NoResults from "./Results.js";
 
 export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -41,6 +40,7 @@ export default function Dictionary(props) {
               <input
                 className="searchEngine"
                 type="search"
+                placeholder="search for a word..."
                 onChange={handleKeywordChange}
               ></input>
             </form>
@@ -53,7 +53,5 @@ export default function Dictionary(props) {
   } else {
     load();
     search();
-    return;
-    <NoResults />;
   }
 }
