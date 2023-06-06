@@ -13,7 +13,11 @@ export default function Dictionary(props) {
   const [error, setError] = useState(null);
 
   function dictionaryHandleResponse(response) {
-    setResults(response.data);
+    if (response.data.status === "not_found") {
+      setError(response.data.message);
+    } else {
+      setResults(response.data);
+    }
   }
 
   function imageHandleResponse(response) {
